@@ -72,7 +72,7 @@ echo
 
 #### Cleanup
 echo "-----> Cleanup"
-rm -rf *img osmmap.tdb template.args areas.* densities-out.txt bounds cities*.zip *.poly #*osm.pbf *o5m
+rm -rf *img osmmap.tdb template.args areas.* densities-out.txt bounds cities*.zip *.poly *osm.pbf *o5m
 
 #rm -rf osmconvert* osmfilter* osmupdate* splitter* mkgmap*
 echo
@@ -124,7 +124,7 @@ if [ -e "oldo5mmap" ]; then
 else
     PBFMAPURL="http://download.geofabrik.de/$CONTINENT/$MAP-latest.osm.pbf"
     echo "----> Downloading pbf map"
-    wget -c $PBFMAPURL
+    wget $PBFMAPURL
     echo
     echo "-----> Convert pbf map to o5m"
     ./osmconvert --verbose $MAP-latest.osm.pbf --out-o5m > $MAP.o5m
