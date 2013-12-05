@@ -41,8 +41,8 @@ CONTINENT="europe"
 
 # Specify file names for tools, as given on their web pages
 
-MKGMAP="mkgmap-r2544"
-SPLITTER="splitter-r300"
+MKGMAP="mkgmap-r2857"
+SPLITTER="splitter-r314"
 OSMCONVERT="osmconvert.c"
 OSMFILTER="osmfilter.c"
 OSMUPDATE="osmupdate.c"
