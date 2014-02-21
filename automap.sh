@@ -164,12 +164,12 @@ echo
 
 echo "-----> Creating gmapsupp.img file"
 
-java -Xmx2048M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --ignore-maxspeeds --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --index --gmapsupp -c template.args
+java -Xmx2048M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --index --gmapsupp -c template.args
 
-#java -Xmx3000M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --ignore-maxspeeds --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --reduce-point-density=5.4 --reduce-point-density-polygon=8 --min-size-polygon=10 --index --gmapsupp --style-file=style_CF --family-id=1500 -c template.args CFMaster_FID_1500.TYP
+#java -Xmx3000M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --reduce-point-density=5.4 --reduce-point-density-polygon=8 --min-size-polygon=10 --index --gmapsupp --style-file=style_CF --family-id=1500 -c template.args CFMaster_FID_1500.TYP
 
-#java -Xmx3000M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --ignore-maxspeeds --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --index --gmapsupp --style-file=style_world --family-id=2000 -c template.args 2000.TYP
+#java -Xmx3000M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --index --gmapsupp --style-file=style_world --family-id=2000 -c template.args 2000.TYP
 
-#java -Xmx3000M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --ignore-maxspeeds --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --index --gmapsupp --style-file=style_CF --family-id=1500 -c template.args CFMaster_FID_1500.TYP
+#java -Xmx3000M -jar $MKGMAP/mkgmap.jar --route --latin1 --bounds=bounds --location-autofill=bounds,is_in,nearest --adjust-turn-headings --link-pois-to-ways --ignore-turn-restrictions --check-roundabouts --make-all-cycleways --add-pois-to-areas --preserve-element-order --add-pois-to-lines --index --gmapsupp --style-file=style_CF --family-id=1500 -c template.args CFMaster_FID_1500.TYP
 
 echo
